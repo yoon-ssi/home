@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>절기 Solar Term</title>
+	<meta name="description" content="2024년의 스물네 절기와 각 이름의 뜻을 풀어 소개합니다. Website introducing the 24 Solar Terms of 2024 and the meaning of each name.">
+	<meta name="keywords" content="절기, Jeolgi, Solar Term, 24절기, 24 Solar Terms">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="절기 Solar Term">
+	<meta itemprop="description" content="2024년의 스물네 절기와 각 이름의 뜻을 풀어 소개합니다. Website introducing the 24 Solar Terms of 2024 and the meaning of each name.">
+	<meta itemprop="image" content="thumbnail.jpg">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://choong.city/jeolgi">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="절기 Solar Term">
+	<meta property="og:description" content="2024년의 스물네 절기와 각 이름의 뜻을 풀어 소개합니다. Website introducing the 24 Solar Terms of 2024 and the meaning of each name.">
+	<meta property="og:image" content="thumbnail.jpg">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="절기 Solar Term">
+	<meta name="twitter:description" content="2024년의 스물네 절기와 각 이름의 뜻을 풀어 소개합니다. Website introducing the 24 Solar Terms of 2024 and the meaning of each name.">
+	<meta name="twitter:image" content="thumbnail.jpg">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>2024</h1>
+<!-- 	<div id="circle1"></div>
+	<div id="circle2"></div> -->
+	<div class="circle" style="--total: 24">
+	  <p class="stat ml mt2" style="--i:1"><a href="#2">우수 雨水 <span class="num">2</span> <span class="num">19</span></a></p>
+	  <p class="stat ml2 mt3" style="--i:2"><a href="#3">경칩 驚蟄 <span class="num">3</span> <span class="num">5</span></a></p>
+	  <p class="stat ml3 mt4" style="--i:3"><a href="#4">춘분 春分 <span class="num">3</span> <span class="num">12</span></a></p>
+	  <p class="stat ml4 mt5" style="--i:4"><a href="#5">청명 淸明 <span class="num">4</span> <span class="num">4</span></a></p>
+	  <p class="stat ml5 mt6" style="--i:5"><a href="#6">곡우 穀雨 <span class="num">4</span> <span class="num">19</span></a></p>
+	  <p class="stat l0 ml6" style="--i:6"><a href="#7">입하 立夏 <span class="num">5</span> <span class="num">5</span></a></p>
+	  <p class="stat l1 ml5" style="--i:7"><a href="#8">소만 小滿 <span class="num">5</span> <span class="num">20</span></a></p>
+	  <p class="stat l2 ml4" style="--i:8"><a href="#9">망종 芒種 <span class="num">6</span> <span class="num">5</span></a></p>
+	  <p class="stat l3 ml3" style="--i:9"><a href="#10">하지 夏至 <span class="num">6</span> <span class="num">21</span></a></p>
+	  <p class="stat l4 ml2" style="--i:10"><a href="#11">소서 小暑 <span class="num">7</span> <span class="num">6</span></a></p>
+	  <p class="stat l5 ml" style="--i:11"><a href="#12">대서 大暑 <span class="num">7</span> <span class="num">22</span></a></p>
+	  <p class="stat l6" style="--i:12"><a href="#13">입추 立秋 <span class="num">8</span> <span class="num">7</span></a></p>
+	  <p class="stat l5 mr" style="--i:13"><a href="#14">처서 處暑 <span class="num">8</span> <span class="num">22</span></a></p>
+	  <p class="stat l4 mr2" style="--i:14"><a href="#15">백로 白露 <span class="num">9</span> <span class="num">7</span></a></p>
+	  <p class="stat l3 mr3" style="--i:15"><a href="#16">추분 秋分 <span class="num">9</span> <span class="num">22</span></a></p>
+	  <p class="stat l2 mr4" style="--i:16"><a href="#17">한로 寒露 <span class="num">10</span> <span class="num">8</span></a></p>
+	  <p class="stat l1 mr5" style="--i:17"><a href="#18">상강 霜降 <span class="num">10</span> <span class="num">23</span></a></p>
+	  <p class="stat l0 mr6" style="--i:18"><a href="#19">입동 立冬 <span class="num">11</span> <span class="num">7</span></a></p>
+	  <p class="stat mr5 mt6" style="--i:19"><a href="#20">소설 小雪 <span class="num">11</span> <span class="num">22</span></a></p>
+	  <p class="stat mr4 mt5" style="--i:20"><a href="#21">대설 大雪 <span class="num">12</span> <span class="num">7</span></a></p>
+	  <p class="stat mr3 mt4" style="--i:21"><a href="#22">동지 冬至 <span class="num">12</span> <span class="num">21</span></p>
+	  <p class="stat mr2 mt3" style="--i:22"><a href="#23">소한 小寒 <span class="num">1</span> <span class="num">6</span></a></p>
+	  <p class="stat mr mt2" style="--i:23"><a href="#24">대한 大寒 <span class="num">1</span> <span class="num">20</span></a></p>
+	  <p class="stat mt1" style="--i:24"><a href="#1">입춘 立春 <span class="num">2</span> <span class="num">4</span></a></p>
+	</div>
+
+	<div id="1" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>설 립</li>
+					<li>봄 춘</li>
+				</ol>
+			</li>
+			<li class="cn">立春</li>
+			<li class="meaning">봄이 시작하다 &nbsp;Spring Begins</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="2" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>비 우</li>
+					<li>물 수</li>
+				</ol>
+			</li>
+			<li class="cn">雨水</li>
+			<li class="meaning">눈이 비가 되어 내리고 얼음이 녹아 물이 되다 &nbsp;Rain and Water</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="3" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>놀랠 경</li>
+					<li>겨울잠을 자는 벌레 칩</li>
+				</ol>
+			</li>
+			<li class="cn">驚蟄</li>
+			<li class="meaning">겨울잠을 자던 벌레가 깨다	&nbsp;Startle Hibernators</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="4" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>봄 춘</li>
+					<li>나눌 분</li>
+				</ol>
+			</li>
+			<li class="cn">春分</li>
+			<li class="meaning">낮과 밤의 길이가 같아지다 &nbsp;Vernal Equinox</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="5" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>푸를 청</li>
+					<li>밝을 명</li>
+				</ol>
+			</li>
+			<li class="cn">淸明</li>
+			<li class="meaning">하늘이 차츰 맑아지다 &nbsp;Clear and Bright</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="6" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>곡식 곡</li>
+					<li>비 우</li>
+				</ol>
+			</li>
+			<li class="cn">穀雨</li>
+			<li class="meaning">비가 내려 곡식을 기름지게 하다 &nbsp;Grain Rain</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="7" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>설 립</li>
+					<li>여름 하</li>
+				</ol>
+			</li>
+			<li class="cn">立夏</li>
+			<li class="meaning">여름이 시작하다 &nbsp;Summer Begins</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="8" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>작을 소</li>
+					<li>찰 만</li>
+				</ol>
+			</li>
+			<li class="cn">小滿</li>
+			<li class="meaning">만물이 점차 자라 가득 차다 &nbsp;All Things Fully Grow</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="9" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>까끄라기 망</li>
+					<li>씨 종</li>
+				</ol>
+			</li>
+			<li class="cn">芒種</li>
+			<li class="meaning">벼와 같이 수염이 있는 곡식의 씨	 &nbsp;Awned Grain</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="10" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>여름 하</li>
+					<li>이를 지</li>
+				</ol>
+			</li>
+			<li class="cn">夏至</li>
+			<li class="meaning">여름에 이르다 &nbsp;Summer Solstice</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="11" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>작을 소</li>
+					<li>더울 서</li>
+				</ol>
+			</li>
+			<li class="cn">小暑</li>
+			<li class="meaning">작은 더위 &nbsp;Lesser Heat</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="12" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>큰 대</li>
+					<li>더울 서</li>
+				</ol>
+			</li>
+			<li class="cn">大暑</li>
+			<li class="meaning">큰 더위 &nbsp;Great Heat</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="13" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>설 립</li>
+					<li>가을 추</li>
+				</ol>
+			</li>
+			<li class="cn">立秋</li>
+			<li class="meaning">가을이 시작하다 &nbsp;Autumn Begins</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="14" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>다스릴 처</li>
+					<li>더울 서</li>
+				</ol>
+			</li>
+			<li class="cn">處暑</li>
+			<li class="meaning">더위가 그치다 &nbsp;Heat Ceases</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="15" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>흰 백</li>
+					<li>이슬 로</li>
+				</ol>
+			</li>
+			<li class="cn">白露</li>
+			<li class="meaning">이슬이 맺히다	 &nbsp;White Dew</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="16" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>가을 추</li>
+					<li>나눌 분</li>
+				</ol>
+			</li>
+			<li class="cn">秋分</li>
+			<li class="meaning">낮과 밤의 길이가 같아지다 &nbsp;Autumnal Equinox</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="17" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>찰 한</li>
+					<li>이슬 로</li>
+				</ol>
+			</li>
+			<li class="cn">寒露</li>
+			<li class="meaning">찬 이슬이 맺히다 &nbsp;Cold Dew</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="18" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>서리 상</li>
+					<li>내릴 강</li>
+				</ol>
+			</li>
+			<li class="cn">霜降</li>
+			<li class="meaning">서리가 내리다 &nbsp;Frost Descent</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+
+	<div id="19" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>설 립</li>
+					<li>겨울 동</li>
+				</ol>
+			</li>
+			<li class="cn">立冬</li>
+			<li class="meaning">겨울이 시작하다 &nbsp;Winter Begins</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="20" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>작을 소</li>
+					<li>눈 설</li>
+				</ol>
+			</li>
+			<li class="cn">小雪</li>
+			<li class="meaning">첫눈이 내리다 &nbsp;Lesser Snow</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="21" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>큰 대</li>
+					<li>눈 설</li>
+				</ol>
+			</li>
+			<li class="cn">大雪</li>
+			<li class="meaning">눈이 많이 내리다 &nbsp;Great Snow</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="22" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>겨울 동</li>
+					<li>이를 지</li>
+				</ol>
+			</li>
+			<li class="cn">冬至</li>
+			<li class="meaning">겨울에 이르다 &nbsp;Winter Solstice</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="23" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>작을 소</li>
+					<li>추울 한</li>
+				</ol>
+			</li>
+			<li class="cn">小寒</li>
+			<li class="meaning">작은 추위 &nbsp;Lesser Cold</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+
+	<div id="24" class="explain">
+		<ul>
+			<li class="read">
+				<ol>
+					<li>큰 대</li>
+					<li>추울 한</li>
+				</ol>
+			</li>
+			<li class="cn">大寒</li>
+			<li class="meaning">큰 추위 &nbsp;Great Cold</li>
+		</ul>
+		<a href="#none" class="close"></a>
+	</div>
+ 	<script src="jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
